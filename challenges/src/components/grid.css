@@ -1,0 +1,24 @@
+.Grid {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.Grid .GridCell {
+  border: 1px rgba(119, 119, 119, 0.17) solid;
+  height: 28rem;
+  margin-top: -1px;
+  padding: 10px;
+  text-align: center;
+  width: 25%;
+}
+
+.Grid .GridCell:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.Grid .GridCell .front img {
+  width: 40%;
+}

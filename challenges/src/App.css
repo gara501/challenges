@@ -1,0 +1,60 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto Slab', Arial, sans-serif;
+  height: 100%;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  line-height: 50px;
+}
+
+p {
+  color: #666666;
+  font-weight: 300;
+  line-height: 26px;
+  padding-bottom: 15px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 25px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.heading {
+  margin-bottom: 10rem;
+}
+
+.heading h1,
+.heading h2,
+.heading h3 {
+  background-color: #fff;
+  display: block;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}

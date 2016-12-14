@@ -1,0 +1,9 @@
+.Header .navbar-brand {
+  align-items: center;
+  display: flex;
+  font-size: 2.2rem;
+}
+.Header .navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
